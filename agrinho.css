@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f0f7f2;
+  color: #2d3436;
+}
+
+/* Cabeçalho */
+header {
+  background: #27ae60;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* Menu */
+nav {
+  background: #1e8449;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #d4efdf;
+}
+
+.hero button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #27ae60;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background: #219150;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Dicas */
+.dicas {
+  background: #ecf9f1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.dicas ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.dicas li {
+  margin: 10px 0;
+}
+
+/* Rodapé */
+footer {
+  background: #145a32;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
